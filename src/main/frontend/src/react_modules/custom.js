@@ -30,7 +30,7 @@ class Custom extends React.Component {
     }
 
     getData =  async function () {
-        const url = 'http://localhost:8080/api/tea/'+this.props.match.params.id;
+        const url = '/api/tea/'+this.props.match.params.id;
         let api_url = await fetch(url, );
         let data = await api_url.json();
         console.log(data);

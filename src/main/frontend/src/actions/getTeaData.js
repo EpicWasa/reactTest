@@ -3,7 +3,7 @@ import {fetchProductsPending, fetchProductsSuccess, fetchProductsError} from './
 function fetchProducts() {
     return dispatch => {
         dispatch(fetchProductsPending());
-        fetch('http://localhost:8080/api/tea/list')
+        fetch('/api/tea/list')
             .then(res => res.json())
             .then(res => {
                 console.log(res);

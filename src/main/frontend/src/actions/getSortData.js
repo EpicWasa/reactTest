@@ -3,7 +3,7 @@ import {fetchSortsPending, fetchSortsSuccess, fetchSortsError} from './actions';
 function fetchSorts() {
     return dispatch => {
         dispatch(fetchSortsPending());
-        fetch('http://localhost:8080/api/tea/sorts')
+        fetch('/api/tea/sorts')
             .then(res => res.json())
             .then(res => {
                 console.log(res);

@@ -1,5 +1,5 @@
 async function createTea(name, origin, sortId) {
-        await fetch('http://localhost:8080/api/tea/add',{
+        await fetch('/api/tea/add',{
             method: 'post',
             mode: 'cors',
             headers: {
