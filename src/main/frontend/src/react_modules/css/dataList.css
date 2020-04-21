@@ -1,0 +1,61 @@
+.teaListTable{
+    text-align: center;
+    margin: auto auto 10px;
+}
+
+
+.sortListTable{
+    text-align: center;
+
+    margin: auto;
+}
+
+.dataList{
+    width: 100%;
+    font-family: 'DejaVu Serif', Georgia, "Times New Roman", Times, serif;
+    font-size: large;
+    margin-top: 20px;
+}
+
+.createButton{
+    font-size: large;
+    margin: auto;
+    text-align: center;
+}
+
+.header{
+    padding-top: 30px;
+    text-align: center;
+}
+th, td{
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+h2{
+
+    margin: auto;
+
+}
+
+a{
+    background-color: rgba(0,255,255, 1);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:link, a:visited {
+    background-color: rgba(0,255,255, 0.5);
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: rgba(0,255,255, 1);
+}
